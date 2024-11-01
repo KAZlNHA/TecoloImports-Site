@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: repeating-radial-gradient(rgb(23, 99, 251), rgb(111, 216, 251))
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 100px;
+}
+
+.cabecalho-item-menu{
+    font-family: "Playwrite GB S", cursive;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+.cabecalho-item-menu:hover{
+    background-color: rgb(192, 250, 237);
+}
+
+.conteudo {
+    margin-bottom:  48px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudo-principal-escrito-titulo{
+    font-family: "Playwrite GB S", cursive;
+    font-weight: 400;   
+    font-size: 64px;
+    color: rgb(0, 0, 0);
+    
+}
+.conteudo-principal-escrito-subtitulo{
+    font-family: "Playwrite GB S", cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+.conteudo-principal-imagem{
+    width: 1100px;
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+    justify-content: space-around;
+}
+.conteudo-secundario-titulo{
+    border-top: 0.8px solid white;
+    padding-top: 48px;
+    font-family: "Playwrite GB S", cursive;
+    font-weight: 400;
+    font-size: 50px;
+    color: black;
+}
+.conteudo-secundario-paragrafo{
+    display: flex;
+    flex-direction: row;
+    font-family: "Playwrite GB S", cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: black;
+}
+
+.conteudo-principal-imagem2{
+    width: 1100px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centraliza os itens verticalmente */
+    font-family: "Playwrite GB S", cursive;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.rodape-links {
+    display: flex; /* Exibe os links em linha */
+    gap: 20px; /* Espaçamento entre os links */
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão */
+}
+
+.rodape-links a {
+    color: black; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.rodape-links a:hover {
+    text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse */
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="pedidos.css">
+    <link rel="stylesheet" type="text/css" href="obrigado.css">
+    <title>Seus pedidos</title>
+</head>
+<body>
+    <header>
+        <img class="cabecalho-imagem" src="" alt=" Logo "> 
+    <nav>
+        <a href="./index.html" class="cabecalho-item-menu">Início</a>
+            <a href="#" class="cabecalho-item-menu">Sobre Nós</a>
+            <a href="./pedidos.html" class="cabecalho-item-menu">Seus pedidos</a>
+            <a href="#" class="cabecalho-item-menu">Suas encomendas</a>
+            <a href="#" class="cabecalho-item-menu">Ajuda</a>
+        </nav>
+    </header>
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo"> Tecolo Imports </h1> 
+                <h2 class="conteudo-principal-escrito-subtitulo"> O seu presente ideal você encontra aqui! </h2>
+            </div>
+    <section>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+            <label>Mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="accessKey" value="042be0d3-84fa-4ae8-aaed-2434cda72cac">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/obrigado.html">
+        </form>
+    </section>
+</main>
+    <footer class="rodape">
+        <div>
+            <h4>Contatos</h4>
+            <ul class="rodape-links">
+                <li><a href="https://www.instagram.com/tecolo_imports?igsh=NDRzaDZsZXJxODk2">Instagram</a></li>
+                <li><a href="#">Whatsapp</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

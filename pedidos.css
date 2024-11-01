@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1e374b, #063544); 
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteudo {
+    margin-bottom:  48px;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.conteudo-principal-escrito-titulo{
+    font-family: "Playwrite GB S", cursive;
+    font-weight: 400;   
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+    
+}
+.conteudo-principal-escrito-subtitulo{
+    font-family: "Playwrite GB S", cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+section {
+    margin-top: 80px; /* Adiciona margem superior para não cobrir o conteúdo pelo cabeçalho fixo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #1d1d2e;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form label{
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+form input:focus{
+    border-radius: 16px;
+}
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+form textarea:focus{
+    border-radius: 16px;
+}
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+form button:hover{
+    background: #f5f5f5;
+    color: #101026;
+    border-radius: 16px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centraliza os itens verticalmente */
+    font-family: "Playwrite GB S", cursive;
+    font-weight: 400;
+    font-size: 32px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #88c739;
+}
