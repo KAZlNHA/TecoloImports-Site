@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(135deg, #1e374b, #063544); 
+    background: linear-gradient(135deg, #dbdbdb, #f6fbff); 
     font-family: 'Poppins', sans-serif;
 }
 
@@ -25,14 +25,14 @@ body {
 .conteudo-principal-escrito-titulo{
     font-family: "Playwrite GB S", cursive;
     font-weight: 100;   
-    font-size: 64px;
+    font-size: 46px;
     color: rgb(255, 255, 255);
     
 }
 .conteudo-principal-escrito-subtitulo{
     font-family: "Playwrite GB S", cursive;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 16px;
     color: rgb(255, 255, 255);
 }
 section {
@@ -40,10 +40,10 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    padding: 20px 45px;
+    flex-direction: row;
+    padding: 20px;
     background: rgb(82, 120, 243) ;
-    width: 2000px;
+    width: 1500px;
     box-shadow: rgba(37, 37, 37, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 section form{
@@ -65,9 +65,6 @@ form input{
     transition: all 0.5s;
 }
 form input:focus{
-    border-radius: 16px;
-}
-form textarea:focus{
     border-radius: 16px;
 }
 form button{
@@ -97,7 +94,7 @@ footer {
     padding: 20px;
     width: 100%;
     text-align: center;
-    color: #f5f5f5;
+    color: #006f77;
 }
 
 footer ul {
@@ -115,5 +112,5 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    color: #88c739;
+    color: #00ffcc;
 }
