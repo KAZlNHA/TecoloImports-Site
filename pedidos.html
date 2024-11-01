@@ -8,16 +8,6 @@
     <title>Seus pedidos</title>
 </head>
 <body>
-    <header>
-        <img class="cabecalho-imagem" src="" alt=" Logo "> 
-    <nav>
-        <a href="./index.html" class="cabecalho-item-menu">Início</a>
-            <a href="#" class="cabecalho-item-menu">Sobre Nós</a>
-            <a href="./pedidos.html" class="cabecalho-item-menu">Seus pedidos</a>
-            <a href="#" class="cabecalho-item-menu">Suas encomendas</a>
-            <a href="#" class="cabecalho-item-menu">Ajuda</a>
-        </nav>
-    </header>
     <main class="conteudo">
         <section class="conteudo-principal">
             <div class="conteudo-principal-escrito">
@@ -30,8 +20,12 @@
             <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
             <label>Email</label>
             <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
-            <label>Mensagem</label>
-            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+            <label>Phone</label>
+            <input type="tel" name="phone" placeholder="Digite seu telefone" autocomplete="off" required>
+            <label>Nome do Produto</label>
+            <input type="text" name="nmprod" placeholder="Digite o nome do produto" autocomplete="off" required>
+            <label>Quantidade</label>
+            <input type="number" name="qntd" placeholder="Quantidade" autocomplete="off" required>
             <button type="submit">Enviar</button>
 
             <input type="hidden" name="accessKey" value="042be0d3-84fa-4ae8-aaed-2434cda72cac">
